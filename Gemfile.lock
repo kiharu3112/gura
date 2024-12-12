@@ -1,0 +1,30 @@
+PATH
+  remote: .
+  specs:
+    gura (0.1.0)
+      fileutils
+      rmagick
+      thor
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fileutils (1.7.3)
+    observer (0.1.2)
+    pkg-config (1.5.8)
+    rake (13.2.1)
+    rmagick (6.0.1)
+      observer (~> 0.1)
+      pkg-config (~> 1.4)
+    thor (1.3.2)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  gura!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.5.18
