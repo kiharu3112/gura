@@ -40,4 +40,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "thor"
   spec.add_dependency "rmagick"
   spec.add_dependency "fileutils"
+  spec.add_dependency "rspec"
 end
